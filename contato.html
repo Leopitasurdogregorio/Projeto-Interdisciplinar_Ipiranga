@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulário Contato</title>
+    <meta charset="utf-8">
+    <link href="estilo.css" rel="stylesheet" media="all">
+    <script src="JavaScript1.js"></script>
+ 
+</head>
+<body>
+
+	<h1>Localização</h1>
+	
+	<div class="text-center">
+		<img src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59424.74731214155!2d-48.539996492291465!3d-21.427409058250486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b9394e72493fa7%3A0x3ea25742bf2ecb79!2sSupermercados+Ipiranga+Loja+1!5e0!3m2!1spt-BR!2sbr!4v1542107736422" class="rounded" alt="...">
+	</div>
+	
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59424.74731214155!2d-48.539996492291465!3d-21.427409058250486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b9394e72493fa7%3A0x3ea25742bf2ecb79!2sSupermercados+Ipiranga+Loja+1!5e0!3m2!1spt-BR!2sbr!4v1542107736422" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    
+	<form name="meu_form">
+ 
+        <h1>Contato</h1>
+ 
+        <p class="nome">
+            <input type="text" id="nomeid" placeholder="Nome Completo" required="requerido" name="nome" />
+            <label for="nome">Nome</label>
+        </p>
+        <p class="telefone">
+            <input type="text" id="foneid" placeholder="Telefone" name="Telefone" />
+            <label for="fone">Telefone</label>
+ 
+        </p>
+        <p>
+            <input type="email" id="emailid" placeholder="Seu e-mail" name="email" />
+            <label for="email">Email</label>
+        </p>
+        <p>
+            <textarea placeholder="Deixe sua opnião"></textarea>
+        </p>
+        <p class="submit">
+            <input type="submit" onclick="Enviar();" value="Enviar" />
+        </p>
+ 
+    </form>
+</body>
+</html>
